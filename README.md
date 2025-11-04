@@ -1,50 +1,84 @@
-# 📊 Sales Dashboard – Excel Data Analysis Project
+# 🧾 Sales Dashboard (Excel + Power Pivot)
 
-This project presents a **Sales Dashboard** built in **Microsoft Excel** to visualize key sales performance metrics and trends.  
-The dashboard provides an interactive overview of **Total Sales** and **Total Customers**, with detailed analysis by **Branch**, **Payment Method**, **Date**, and **Product Category**.
-
-Through Excel’s **Pivot Tables**, **Slicers**, and **Charts**, raw data was transformed into dynamic and meaningful insights — supporting business decision-making and highlighting top-performing branches, preferred payment methods, and seasonal sales patterns.
-
----
-
-## ✨ Project Structure & Key Analysis
-
-The dashboard is structured to provide both a high-level performance overview and drill-down insights.
-
-### 1. Performance Overview
-- **Total Sales:** 974,693.16  
-- **Total Customers:** 638  
-- **Top Branch:** Branch 3 recorded the highest total sales.  
-- **Top Payment Method:** PayPal was the most frequently used payment method.  
-- **Top Categories:** Electronics and Fashion generated the highest total revenue.  
-
-### 2. Detailed Analysis
-- Monthly sales and customer patterns  
-- Branch-wise and category-wise revenue distribution  
-- Payment method trends and contribution to total revenue  
+## 🧩 Overview
+This interactive **Excel + Power Pivot Dashboard** provides a comprehensive overview of **sales performance** across different branches, payment methods, categories, and brands.  
+It combines **Power Pivot data modeling** and **Excel visualizations** to deliver dynamic, slicer-driven insights without the need for external BI tools.
 
 ---
 
-## 💡 Business Insights & Recommendations
-
-1. **Focus on Branch 3:** Strong performance indicates potential for expansion and replication of its successful sales strategies.  
-2. **Cross-Branch Optimization:** Encourage other branches to adopt similar promotional and operational tactics used by Branch 3.  
-3. **Leverage PayPal Popularity:** Offer loyalty points or discounts to PayPal users to retain engagement and increase repeat sales.  
-4. **Boost Top Categories:** Increase inventory and targeted marketing for **Electronics** and **Fashion** to capitalize on demand.  
-5. **Improve Underperforming Categories:** Analyze pricing, customer feedback, and product relevance to balance category performance.  
-6. **Seasonal Strategy:** Identify peak sales months and launch seasonal campaigns to maximize overall revenue.  
+## 🚀 Key Metrics
+| Metric | Value | Description |
+|--------|--------|-------------|
+| 💰 **Total Sales** | **974,693.16** | Total revenue generated across all branches. |
+| 👥 **Customers** | **638** | Total number of unique customers. |
 
 ---
 
-## 🧠 Skills & Tools Demonstrated
+## 🏢 Sales by Branch
+| Branch | Performance |
+|--------|--------------|
+| Branch 3 | Highest sales performance |
+| Branch 4 | Strong sales |
+| Branch 1 | Competitive performance |
+| Branch 2 | Moderate |
+| Branch 5 | Lowest |
 
-- **Data Cleaning and Preparation**  
-- **Pivot Tables and Slicers**  
-- **Interactive Dashboard Design**  
-- **Data Visualization and KPI Tracking**  
-- **Business Analysis and Insight Generation**
+📊 **Branch 3** leads in sales, indicating strong market performance and consistent customer engagement.
 
-**Tool Used:** Microsoft Excel  
+---
 
+## 📅 Sales by Date
+A monthly analysis (January–December) showing consistent performance throughout the year,  
+with a slight increase in **August**, suggesting seasonal sales influence.
 
-## 📂 Repository Structure
+---
+
+## 💳 Sales by Payment Method
+| Payment Method | Observation |
+|----------------|--------------|
+| PayPal | Highest usage |
+| Credit Card | 2nd most used |
+| Cash | Moderate |
+| Bank Transfer | Least used |
+
+💡 Customers prefer **digital payment methods** (PayPal and Credit Card), highlighting the importance of maintaining seamless online payment options.
+
+---
+
+## 🏷️ Sales by Category & Brands
+Breakdown of sales by **product category** (Beauty, Electronics, Fashion, Home, Sports) and **brand** (A–E).
+
+**Insights:**
+- **Fashion** leads all categories.
+- **Beauty** and **Electronics** follow closely.
+- **Sales are well distributed across five brands**, reflecting product diversity.
+
+---
+
+## 🧠 Insights Summary
+- Branch 3 recorded the **highest total sales**.  
+- **PayPal** dominates as the top payment method.  
+- **Fashion** is the best-selling category.  
+- Monthly performance is stable with minor seasonal peaks.  
+- **638 customers** across all branches show solid engagement levels.
+
+---
+
+## 🛠️ Tools & Technologies
+- **Microsoft Excel** – Dashboard design, charts, and slicers  
+- **Power Pivot** – Data modeling and DAX calculations  
+- **Pivot Tables & Charts** – Interactive visuals  
+- **Slicers & Filters** – Dynamic data exploration  
+
+---
+
+## 📸 Dashboard Preview
+![Sales Dashboard](./Sales_DashBoard.png)
+
+---
+
+## 📎 Author
+**Ibrahim Nady**  
+Excel & Power Pivot Developer | Data Analysis Enthusiast  
+📧 [ibrahimnady.abdelrahman@gmail.com]  
+🌐 [www.linkedin.com/in/ibrahim-nady-466b931b6]
